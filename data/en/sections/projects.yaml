@@ -1,0 +1,41 @@
+---
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Hobby
+    filter: "hobby"
+
+projects:
+- name: Resume
+  role: Author
+  timeline: "April 2024"
+  repo: https://github.com/chris968/resume
+  summary: Deploying and managing my resume through github actions and github pages.
+  tags: ["hobby"]
+- name: Portfolio
+  role: Author
+  timeline: "April 2024"
+  repo: https://github.com/chris968/portfolio
+  summary: Deploying and managing my portfolio through github actions and github pages.
+  tags: ["hobby"]
+- name: Societas-Angliciis
+  role: Cofounder
+  timeline: "January 2020 - Present"
+  url: https://www.societasangliciis.be/
+  summary: Reenactment group around the most famous mercenary company of the late 14th century in northern Italy.
+  tags: ["hobby", "Reenactment", "history"]
+- name: Sept Épées
+  role: cofounder
+  timeline: "November 2021 - Present"
+  url: https://www.7epees.be/
+  summary: Group to study and practicing historical European martial arts (HEMA).
+  tags: ["hobby", "HEMA", "sport"]

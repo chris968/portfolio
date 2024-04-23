@@ -1,0 +1,12 @@
+name: "Christophe Aubry"
+nickname: "Christophe"
+image: "images/avatar.jpg"
+greeting: "Hi, I am"
+
+contactInfo:
+  email: "job@c-aubry.be"
+
+summary:
+  - I am a system and infrastructure engineer
+  - I love open-source
+  - I am a cloud tech enthusiast

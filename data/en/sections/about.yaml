@@ -5,16 +5,10 @@ section:
   enable: true
   weight: 1
   showOnNavbar: true
-  #template: sections/about.html
 
-designation: IT Manager
-company:
-  name: Tessares
-  url: "https://www.tessares.net/"
+designation: System and Infrastructure Engineer
 
-summary: "I am a system and network engineer passionate by open-source technologies and a cloud enthusiast.
-          I am driven by the will of state of the art solutions including code described infrastructures and
-          automated delivery workflows."
+summary: "I'm passionate about open-source technologies and also a continuous learner. I like to explore by myself new ways and tools to manage IT infrastructures and networks."
 
 socialLinks:
   - name: Email

@@ -17,3 +17,7 @@ socialLinks:
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/c-aubry-be/"
+
+resourceLinks:
+  - title: "My Resume"
+    url: "files/caubry_resume.pdf"

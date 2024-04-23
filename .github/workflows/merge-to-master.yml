@@ -1,9 +1,9 @@
-name: Merge to main workflows
+name: Merge to master workflows
 # Run action on push in mater branch
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   update_release_draft:

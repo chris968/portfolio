@@ -8,42 +8,42 @@ section:
 skills:
   - name: Cloud infrastructures
     logo: /images/cloud.png
-    summary: "Deploying and configuring cloud and hosted infrastructures with the help of Ansible and Terraform."
+    summary: Deploying and configuring cloud infrastructure with the help of Ansible and Terraform to automate IT operations.
 
   - name: Kubernetes
     logo: /images/kubernetes.png
-    summary: "Deploying and managing application on Kubernetes, troubleshooting issues through CLI tools and using Helm charts."
-    url: "https://kubernetes.io/"
+    summary: Deploying and managing various applications on Kubernetes, troubleshooting issues through kubectl and other CLI tools, leveraging Helm charts.
+    url: https://kubernetes.io/
 
   - name: Terraform
     logo: /images/terraform.png
-    summary: "Describing infrastructures as re-usable Terraform code, writing Terraform modules."
-    url: "https://www.terraform.io/"
+    summary: Describing infrastructures as Terraform code and developing reusable Terraform modules.
+    url: https://www.terraform.io/
 
   - name: Ansible
     logo: /images/ansible.svg
-    summary: "Configuring remote assets through Ansible playbooks, writing Ansible roles, using automation platform like Ansible AWX or any others CI/CD"
-    url: "https://www.ansible.com/"
+    summary: Configuring remote assets through Ansible playbooks, writing Ansible roles, using automation platform like Ansible AWX for orchestration.
+    url: https://www.ansible.com/
 
   - name: Docker
     logo: /images/docker.svg
-    summary: "Building and deploying container images, deploying stacks through docker compose."
-    url: "https://www.docker.com/"
+    summary: Building and deploying container images, orchestrating multi-container applications using Docker Compose.
+    url: https://www.docker.com/
 
   - name: Golang
     logo: /images/go.png
-    summary: "Writing small tools in Go to automate tasks and replace error-prone shell scripts."
-    url: "https://go.dev/"
+    summary: Writing small, efficient tools in Go to automate tasks and replace error-prone shell scripts, improving reliability and maintainability.
+    url: https://go.dev/
 
   - name: Git
     logo: /images/git.png
-    summary: "Using a git based platform for code versioning and reviewing, have experience with github and Gerrit."
-    url: "https://git-scm.com/"
+    summary: Using Git-based platforms like GitHub and Gerrit for code versioning and code review.
+    url: https://git-scm.com/
 
   - name: Linux
     logo: /images/linux.png
-    summary: "Using Linux for a day-to-day usage or to host services which need security through proper hardening, has expertise in both Debian and Red-Hat based distributions."
+    summary: Proficient in using Linux for both day-to-day tasks and hosting secure services through proper hardening. Specialized in managing both Debian and Red-Hat based distributions.
 
   - name: Monitoring
     logo: /images/monitor.png
-    summary: "Monitoring services and assets through SNMP and other collectors, centralizing logs and configuring alerts through various channels."
+    summary: Monitoring services and assets through SNMP and other collectors, centralizing logs in a SIEM system, and configuring alerts to be sent through various channels like email, SMS, and chats.

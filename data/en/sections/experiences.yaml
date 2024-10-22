@@ -8,6 +8,20 @@ section:
 
 experiences:
   - company:
+      name: Actito
+      url: "https://www.actito.com"
+      location: Louvain-la-Neuve, Belgium
+      logo: /images/actito.png
+      overview: |
+        Actito is one of the leading SaaS marketing automation platform in Europe.
+    positions:
+      - designation: Infrastructure Engineer
+        start: July 2024
+        responsibilities:
+          - Design and manage on-premises, hosted and cloud infrastructures.
+          - Implement security on the IT infrastructures in order to comply to ISO 27001 standard.
+
+  - company:
       name: Tessares
       url: "https://www.tessares.net"
       location: Louvain-la-Neuve, Belgium
@@ -18,6 +32,7 @@ experiences:
     positions:
       - designation: System and Infrastructure Engineer
         start: January 2018
+        end: June 2024
         responsibilities:
           - Provide technical support to the whole team.
           - Enforce security for the overall IT infrastructure and assets.

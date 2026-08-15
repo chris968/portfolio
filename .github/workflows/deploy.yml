@@ -1,19 +1,19 @@
-name: Deploy to Github Pages
+name: Deploy to surge.sh
 
-# run when a commit is pushed to "source" branch
 on:
   workflow_dispatch:
   push:
     branches:
-    - master
+      - master
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v4
-
+    - uses: actions/checkout@v7
+    - uses: actions/setup-node@v7
+      with:
+        node-version: 24
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
@@ -22,11 +22,6 @@ jobs:
 
     - name: Update Hugo Modules
       run: hugo mod tidy
-
-    - name: Setup Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: 24
 
     - name: Install node modules
       run: |
